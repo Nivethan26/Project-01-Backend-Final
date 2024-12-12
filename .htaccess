@@ -1,0 +1,13 @@
+<IfModule mod_headers.c>
+    # Allow requests from any origin
+    Header set Access-Control-Allow-Origin "*"
+    
+    # Allow specific methods
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    
+    # Allow specific headers
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+    
+    # Handle preflight requests
+    Header always set Access-Control-Max-Age "3600"
+</IfModule>

@@ -1,0 +1,1 @@
+http://localhost/Em/api/ViewEmployeeDetails.php?id=${id}
